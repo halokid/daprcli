@@ -1,10 +1,5 @@
 # Dapr CLI
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/halokid/daprcli)](https://goreportcard.com/report/github.com/halokid/daprcli)
-[![Build Status](https://github.com/halokid/daprcli/workflows/dapr_cli/badge.svg)](https://github.com/halokid/daprcli/actions?workflow=dapr_cli)
-[![codecov](https://codecov.io/gh/dapr/cli/branch/master/graph/badge.svg)](https://codecov.io/gh/dapr/cli)
-[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B162%2Fgithub.com%2Fdapr%2Fcli.svg?type=shield)](https://app.fossa.com/projects/custom%2B162%2Fgithub.com%2Fdapr%2Fcli?ref=badge_shield)
-
 The Dapr CLI allows you to setup Dapr on your local dev machine or on a Kubernetes cluster, provides debugging support, launches and manages Dapr instances.
 
 ## Getting started
