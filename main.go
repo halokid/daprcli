@@ -19,10 +19,10 @@ import (
 
 // Values for version and apiVersion are injected by the build.
 var (
-	version    = ""
-	apiVersion = "1.0"
+  version    = ""
+  apiVersion = "1.0"
 )
 
 func main() {
-	cmd.Execute(version, apiVersion)
+  cmd.Execute(version, apiVersion)
 }
