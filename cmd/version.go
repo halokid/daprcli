@@ -20,7 +20,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/halokid/daprclidaprcli/pkg/print"
+	"github.com/halokid/daprcli/pkg/print"
 )
 
 const cliVersionTemplateString = "CLI version: %s \nRuntime version: %s\n"
