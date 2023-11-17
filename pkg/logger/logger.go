@@ -7,7 +7,7 @@ import (
 	"go.uber.org/zap/zapcore"
 )
 
-var Logger zap.Logger
+var Logger *zap.SugaredLogger
 
 func init() {
 	log.Printf("-->>> pkg Logger init()")

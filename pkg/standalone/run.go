@@ -538,7 +538,7 @@ func GetAppCommand(config *RunConfig) *exec.Cmd {
   }
 
   cmd := exec.Command(command, args...)
-  logger.Logger.Sugar().Debug("app command -->>> %+v, args -->>> %+v", command, args)
+  logger.Logger.Debugf("service real run: command -->>> %+v, args -->>> %+v", command, args)
 
   cmd.Env = os.Environ()
   cmd.Env = append(cmd.Env, config.getEnv()...)
