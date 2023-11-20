@@ -16,6 +16,7 @@ package cmd
 import (
 	"bufio"
 	"fmt"
+	"github.com/halokid/daprcli/pkg/logger"
 	"io"
 	"os"
 	"path/filepath"
@@ -131,8 +132,10 @@ dapr run --run-file /path/to/directory -k
 		if len(args) == 0 {
 			fmt.Println(print.WhiteBold("WARNING: no application command found."))
 		}
+		logger.Logger.Debugf("run args -->>> %+v", args)
 
 		daprDirPath, err := standalone.GetDaprRuntimePath(daprRuntimePath)
+		logger.Logger.Debugf("daprDirPath -->>> %+v, err -->>> %+v", daprDirPath, err)
 		if err != nil {
 			print.FailureStatusEvent(os.Stderr, "Failed to get Dapr install directory: %v", err)
 			os.Exit(1)
