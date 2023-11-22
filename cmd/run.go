@@ -236,6 +236,7 @@ dapr run --run-file /path/to/directory -k
 				os.Exit(1)
 			}
 
+			// TODO: -halokid, monitor all the dapr command(not real application command) process exit
 			go func() {
 				daprdErr := output.DaprCMD.Wait()
 
