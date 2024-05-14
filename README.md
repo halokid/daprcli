@@ -3,6 +3,7 @@
 The Dapr CLI allows you to setup Dapr on your local dev machine or on a Kubernetes cluster, provides debugging support, launches and manages Dapr instances.
 
 ## Getting started
+my version 
 
 ### Prerequisites
 
